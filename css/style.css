@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+/*-----------------------ESTILOS BASES---------------------------*/
+
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column{
+    width: 100%;
+}
+
+/*-----------------------ESTILOS HEADER---------------------------*/
+
+.main-header{
+    width: 100%;
+}
+
+.logo {
+    font-size: 1.8em;
+    color: #de423a;
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+.contacInfo-phone{
+    background: #de423a;
+    color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+.contacInfo-address{
+    margin: 0%;
+    padding: 10px;
+}
+
+.main-header [class*="icon-"]:before{
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
