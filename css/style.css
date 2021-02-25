@@ -65,3 +65,71 @@ img{
     top: 2px;
     right: 5px;
 }
+
+/*-----------------------ESTILOS MENU---------------------------*/
+
+.main-nav{
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+}
+
+.icon-menu{
+    display: block;
+    color: white;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon [class*="icon-"]{
+    color: black;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.social-icon-link{
+    text-decoration: none;
+}
+
+.menu{
+    background: rgb(0, 0, 0,.75);
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    margin: 0px; 
+    padding: 0px;
+    list-style: none;/*quita las bolitas de la lista*/
+    text-align: center;
+}
+
+.menu-link{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-link:hover{
+    background: #de423a;
+}
+
+.select{
+    background: #a0342e;
+    color: white;
+}
