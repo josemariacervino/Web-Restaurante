@@ -199,3 +199,72 @@ img{
     font-size: 1.5em;
     font-weight: bold;
 }
+
+/*-----------------------ESTILOS PRINCIPALES---------------------------*/
+
+
+.group-color .container{
+    background: #de423a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.main-title{
+    margin: 15px 0;
+    font-size: 1.8em;
+    font-family: 'Pacifico', cursive;
+    font-weight: 50;
+}
+
+.column-title{
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+.main-about-description .column:nth-child(2){
+    padding: 20px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background: #de423a;
+    color: white;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.group-title{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: 40;
+    font-size: 1.8em;
+    margin: 30px;
+}
+
+.today-special .column{
+    margin-bottom: 30px;
+}
+
+.today-special-img{
+    margin: auto;
+    max-width: 350px;
+}
+
+.today-special-title{
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.today-special-price{
+    text-align: center;
+    font-size: 1.8em;
+    padding-bottom: 8px;
+    color: #de423a;
+    font-weight: bold;
+}
