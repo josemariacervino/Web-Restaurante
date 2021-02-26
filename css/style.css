@@ -268,3 +268,39 @@ img{
     color: #de423a;
     font-weight: bold;
 }
+
+
+/*-----------------------ESTILOS FOOTER---------------------------*/
+
+.main-footer{
+    background: #222;
+    color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: .8em;
+}
+
+.copy{
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.main-footer [class*="icon-"]{
+    color: white;
+    text-decoration: none;
+
+}
+
+.main-footer [class*="icon-"]::before{
+    position: relative;
+    top: 2px;
+    right: 7px;
+    padding-left: 7px;
+}
+
+.main-footer [class*="column"]{
+    margin-bottom: 2px;
+}
