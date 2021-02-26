@@ -126,10 +126,17 @@ img{
     top: 60px;
     left: 0px;
     width: 100%;
-    margin: 0px; 
+    margin: 0px;
     padding: 0px;
-    list-style: none;/*quita las bolitas de la lista*/
-    text-align: center;
+    list-style: none;
+    /*quitalasbolitasdelalista*/text-align: center;
+    height: 0;
+    overflow: hidden;
+    transition: height .28s linear;
+    -webkit-transition: height .28s linear;
+    -moz-transition: height .28s linear;
+    -ms-transition: height .28s linear;
+    -o-transition: height .28s linear;
 }
 
 .menu-link{
@@ -146,6 +153,10 @@ img{
 .select{
     background: #a0342e;
     color: white;
+}
+
+.mostrar{
+    height: 196px;
 }
 
 /*-----------------------ESTILOS BANNER---------------------------*/
