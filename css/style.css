@@ -556,9 +556,13 @@ img{
 
 @media only screen and (min-width: 1600px) {
 
+    /*ESTILO CONTAINER*/
+
     .container{
         width: 1400px;
     }
+
+    /*ESTILO PRINCIPAL*/
 
     .main-about-description .column:nth-child(1) img{
         width: 100%;
