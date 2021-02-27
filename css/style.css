@@ -409,3 +409,49 @@ img{
         width: 31%;
     }
 }
+
+@media only screen and (min-width: 768px) {
+
+    /*ESTILO PRINCIPAL*/
+
+    .main{
+        padding-bottom: 30px;
+    }
+   
+    .main-title{
+        font-size: 2.2em;
+    }
+
+    .main-about-description{
+        margin-top: 28px;
+    }
+
+    .main-about-description .column:nth-child(2){
+        font-size: 1em;
+    }
+
+    .main-about-description .column:nth-child(2) .column-text{
+        line-height: 32px;
+    }
+
+    .column-title{
+        font-size: 1.2em;
+    }
+
+    .group-title{
+        font-size: 2.2em;
+    }
+
+    /*ESTILO FOOTER*/
+
+    .main-footer{
+        font-size: .8em;
+    }
+    
+    /*ESTILO COLUMNAS*/
+
+    .column-25{
+        width: 23.5%;
+    }
+}
+
