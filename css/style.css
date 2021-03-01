@@ -1,5 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Montserrat:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@font-face{
+    font-family: 'Pacifico';
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
 
 *{
     box-sizing: border-box;
@@ -340,7 +353,7 @@ img{
     /*ESTILO BANNER*/
 
     .banner{
-        margin-top: -145px;
+        margin-top: -180px;
         z-index: -1000;
     }
 
@@ -441,7 +454,7 @@ img{
     }
 
     .column-title{
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     .group-title{
@@ -561,7 +574,7 @@ img{
 
    .main-footer{
        padding-top: 20px;
-       font-size: .9em;
+       font-size: .8em;
    }
 
 }
