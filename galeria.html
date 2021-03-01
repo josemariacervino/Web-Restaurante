@@ -12,6 +12,7 @@
     <link href="https://file.myfontastic.com/KiUP9Q66pWZxtPWwPm7SdU/icons.css" rel="stylesheet">
 </head>
 <body>
+
     <header class="main-header">
         <div class="container container-flex">
             <div class="logo-container column column-50">
@@ -47,8 +48,15 @@
 
     <section class="banner">
         <img src="/Images/bannerGaleria.jpg" alt="Foto de un plato de fideos" class="banner-img">
-        <div class="banner-content">Disfruta de nuestros platos 🤤 </div>
+        <div class="banner-content">Disfruta de nuestros platos</div>
     </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <img src="" alt="" class="modal-img" id="modal-img">
+        </div>
+        <div class="modal-btn" id="modal-btn">X</div>
+    </div>
 
     <main class="main">
         <div class="group gallery">
@@ -101,6 +109,7 @@
     </footer> 
 
     <script src="/js/menu.js"></script> <!--Se pone al final xq si ponemos al principio el menu todavia no esta hecho-->
+    <script src="/js/modal.js"></script> 
 
 </body>
 </html>
