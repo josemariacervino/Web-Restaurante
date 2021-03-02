@@ -39,19 +39,23 @@
 }
 
 
-.fc{ display:block; 
-    width:100%; 
-    height:calc(1.5em + .75rem + 2px); 
-    padding:.375rem .75rem; 
-    font-size:1rem; 
-    font-weight:400; 
-    line-height:1.5; 
-    color:#495057; 
-    background-color:#fff; 
-    background-clip:padding-box; 
-    border:1px solid #ced4da; 
-    border-radius:.25rem; 
-    transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out.formulario-text-area; -webkit-transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out.formulario-text-area; -moz-transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out.formulario-text-area; -ms-transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out.formulario-text-area; -o-transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out.formulario-text-area;
+.fc{
+    display:block;
+    width:100%;
+    height:calc(1.5em + .75rem + 2px);
+    padding:.375rem .75rem;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#495057;
+    background-color:#fff;
+    background-clip:padding-box;
+    border:1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
 }
 
 .red{
@@ -80,30 +84,6 @@
 
 .formulario-btn:hover{
     background: #af342e;;
-}
-
-.b{
-    display:inline-block;
-    font-weight:400;
-    color:white;
-    text-align:center;
-    vertical-align:middle;
-    cursor:pointer;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-    background-color:#de423a;
-    border:1px solid #de423a;
-    padding:.375rem .75rem;
-    font-size:1rem;
-    line-height:1.5;
-    border-radius:.25rem;
-    transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    -webkit-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    -moz-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    -ms-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    -o-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 
